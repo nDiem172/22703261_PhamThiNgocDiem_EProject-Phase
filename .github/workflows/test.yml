@@ -21,7 +21,7 @@ jobs:
             echo "Building $service..."
             docker build -t eproject-$service ./$service
           done
-          docker pull mongo
+          docker pull mongo:6
           docker pull rabbitmq:3-management
 
       - name: Start MongoDB & RabbitMQ
