@@ -23,10 +23,9 @@ git clone https://github.com/nDiem172/22703261_PhamThiNgocDiem_EProject-Phase.gi
 
 ## 4. Các mẫu thiết kế được sử dụng
 - Microservices Architecture
-- API Gateway
-- Message Broker (RabbitMQ)
-- Repository 
-- JWT Authentication 
+- API Gateway Pattern
+- Event-Driven Pattern(message borker: RabbitMQ)
+- Repository Pattern
 
 ## 5. Các dịch vụ giao tiếp như thế nào
 - Client -> Api gateway (nhận request từ client và điều hướng đến các service) -> service(auth, product, order) 
